@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head
+<body>
+    <div class="main">
+        <nav class="navbar" aria-label="Dark offcanvas navbar" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo">
+                <img src="img/name.png" alt="name">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Property</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        <div class="motto">
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1600">Discover a place<br>
+                you will love to live</h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                Imperdiet tempus felis vitae sit est quisque.</p>
+        </div>
+
+        <ul class="more" data-aos-delay="2100" data-aos="fade-up" data-aos-duration="1000">
+            <li>
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.4" d="M40.7754 25.5625C39.4629 19.7875 34.4254 17.1875 30.0004 17.1875C30.0004 17.1875 30.0004 17.1875 29.9879 17.1875C25.5754 17.1875 20.5254 19.775 19.2129 25.55C17.7504 32 21.7004 37.4625 25.2754 40.9C26.6004 42.175 28.3004 42.8125 30.0004 42.8125C31.7004 42.8125 33.4004 42.175 34.7129 40.9C38.2879 37.4625 42.2379 32.0125 40.7754 25.5625Z" fill="#025595"/>
+                    <path d="M30 31.825C32.1746 31.825 33.9375 30.0622 33.9375 27.8875C33.9375 25.7129 32.1746 23.95 30 23.95C27.8254 23.95 26.0625 25.7129 26.0625 27.8875C26.0625 30.0622 27.8254 31.825 30 31.825Z" fill="#025595"/>
+                    <circle opacity="0.05" cx="30" cy="30" r="30" fill="#025595"/>
+                </svg>
+                <section>
+                    <p class=" first">Location</p>
+                    <p class="sub">Ahmedabad, India</p>
+                </section>
+            </li>
+            <li>
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle opacity="0.05" cx="30" cy="30" r="30" fill="#025595"/>
+                    <path opacity="0.4" d="M30 42.375C36.9036 42.375 42.5 36.7786 42.5 29.875C42.5 22.9715 36.9036 17.375 30 17.375C23.0964 17.375 17.5 22.9715 17.5 29.875C17.5 36.7786 23.0964 42.375 30 42.375Z" fill="#025595"/>
+                    <path d="M32.8242 30L30.9367 29.3375V25.1H31.3867C32.3992 25.1 33.2242 25.9875 33.2242 27.075C33.2242 27.5875 33.6492 28.0125 34.1617 28.0125C34.6742 28.0125 35.0992 27.5875 35.0992 27.075C35.0992 24.95 33.4367 23.225 31.3867 23.225H30.9367V22.5C30.9367 21.9875 30.5117 21.5625 29.9992 21.5625C29.4867 21.5625 29.0617 21.9875 29.0617 22.5V23.225H28.2492C26.3992 23.225 24.8867 24.7875 24.8867 26.7C24.8867 28.9375 26.1867 29.65 27.1742 30L29.0617 30.6625V34.8875H28.6117C27.5992 34.8875 26.7742 34 26.7742 32.9125C26.7742 32.4 26.3492 31.975 25.8367 31.975C25.3242 31.975 24.8992 32.4 24.8992 32.9125C24.8992 35.0375 26.5617 36.7625 28.6117 36.7625H29.0617V37.5C29.0617 38.0125 29.4867 38.4375 29.9992 38.4375C30.5117 38.4375 30.9367 38.0125 30.9367 37.5V36.775H31.7492C33.5992 36.775 35.1117 35.2125 35.1117 33.3C35.0992 31.05 33.7992 30.3375 32.8242 30ZM27.7992 28.2375C27.1617 28.0125 26.7742 27.8 26.7742 26.7125C26.7742 25.825 27.4367 25.1125 28.2617 25.1125H29.0742V28.6875L27.7992 28.2375ZM31.7492 34.9H30.9367V31.325L32.1992 31.7625C32.8367 31.9875 33.2242 32.2 33.2242 33.2875C33.2242 34.175 32.5617 34.9 31.7492 34.9Z" fill="#025595"/>
+                </svg>
+                <section>
+                    <p class="first">Price</p>
+                    <p class="sub">$1000 - $10,000</p>
+                </section>
+            </li>
+            <li>
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle opacity="0.05" cx="30" cy="30" r="30" fill="#025595"/>
+                    <path d="M42.5 43.4375H17.5C16.9875 43.4375 16.5625 43.0125 16.5625 42.5C16.5625 41.9875 16.9875 41.5625 17.5 41.5625H42.5C43.0125 41.5625 43.4375 41.9875 43.4375 42.5C43.4375 43.0125 43.0125 43.4375 42.5 43.4375Z" fill="#025595"/>
+                    <path opacity="0.4" d="M41.25 27.4749V42.4999H18.6875L18.75 27.4624C18.75 26.6999 19.1 25.975 19.7125 25.5L28.4625 18.7C29.3625 17.9875 30.6375 17.9875 31.5375 18.7L33.2125 19.9999L38.75 24.2999L40.2875 25.5C40.9 25.975 41.25 26.6999 41.25 27.4749Z" fill="#025595"/>
+                    <path d="M31.25 36.25H28.75C27.7125 36.25 26.875 37.0875 26.875 38.125V42.5H33.125V38.125C33.125 37.0875 32.2875 36.25 31.25 36.25Z" fill="#025595"/>
+                    <path d="M26.875 32.1875H24.375C23.6875 32.1875 23.125 31.625 23.125 30.9375V29.0625C23.125 28.375 23.6875 27.8125 24.375 27.8125H26.875C27.5625 27.8125 28.125 28.375 28.125 29.0625V30.9375C28.125 31.625 27.5625 32.1875 26.875 32.1875Z" fill="#025595"/>
+                    <path d="M35.625 32.1875H33.125C32.4375 32.1875 31.875 31.625 31.875 30.9375V29.0625C31.875 28.375 32.4375 27.8125 33.125 27.8125H35.625C36.3125 27.8125 36.875 28.375 36.875 29.0625V30.9375C36.875 31.625 36.3125 32.1875 35.625 32.1875Z" fill="#025595"/>
+                    <path d="M38.7504 24.3L33.2129 20H37.4754C38.1629 20 38.7254 20.55 38.7254 21.2375L38.7504 24.3Z" fill="#025595"/>
+                </svg>
+                <section>
+                    <p class="first">Type of Property</p>
+                    <p class="sub">Apartment</p>
+                </section>
+            </li>
+            <button class="search">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.5 21.75C5.85 21.75 1.25 17.15 1.25 11.5C1.25 5.85 5.85 1.25 11.5 1.25C17.15 1.25 21.75 5.85 21.75 11.5C21.75 17.15 17.15 21.75 11.5 21.75ZM11.5 2.75C6.67 2.75 2.75 6.68 2.75 11.5C2.75 16.32 6.67 20.25 11.5 20.25C16.33 20.25 20.25 16.32 20.25 11.5C20.25 6.68 16.33 2.75 11.5 2.75Z" fill="#fff"/>
+                    <path d="M22.0004 22.7499C21.8104 22.7499 21.6204 22.6799 21.4704 22.5299L19.4704 20.5299C19.1804 20.2399 19.1804 19.7599 19.4704 19.4699C19.7604 19.1799 20.2404 19.1799 20.5304 19.4699L22.5304 21.4699C22.8204 21.7599 22.8204 22.2399 22.5304 22.5299C22.3804 22.6799 22.1904 22.7499 22.0004 22.7499Z" fill="#fff"/>
+                </svg>                    
+            </button>
+        </ul>
+
+        <div class="prices" data-aos-delay="2100" data-aos="fade-up" data-aos-duration="1000">
+            <div>
+                <p class="first">2000+</p>
+                <p class="sub">Property Ready</p>
+            </div>
+            <div>
+                <p class="first">500+</p>
+                <p class="sub">Happy customers</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="content1">
+        <p data-aos="fade-up" data-aos-duration="500">How it Works</p>
+        <p data-aos="fade-up" data-aos-duration="500">Using it can make you sound like you have been studying english<br> 
+            for a long time. Here’s the challenge</p>
+
+        <div class="abilities">
+            <div class="notActive" data-aos="flip-up" data-aos-delay="500">
+                <img src="img/search.png" alt="search"><br>
+                <h3>Search Apartment</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.</p>
+            </div>
+            <div class="active" data-aos="flip-down" data-aos-delay="500">
+                <img src="img/select.png" alt="select"><br>
+                <h3>Select Apartment</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.</p>
+            </div>
+            <div class="notActive" data-aos="flip-up" data-aos-delay="500">
+                <img src="img/confirm.png" alt="confirm"><br>
+                <h3>Confirm Apartment</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content2">
+        <p data-aos="fade-up" data-aos-duration="500">We will help you to find<br> Dream Home</p>
+        <p data-aos="fade-up" data-aos-duration="500">It is a long established fact that a reader will be distracted by the readable content of a page <br>
+            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+        <img class="room1" src="img/room1.png" alt="room1"  data-aos="fade-right" data-aos-duration="1000">
+        <div class="description" data-aos="fade-right" data-aos-duration="1000">
+            <p class="price">$2000/month</p>
+            <h3>Apartment 2500 sqft</h3>
+            <div>
+                <img src="img/bed.png" alt="bed">
+                <p>2</p>
+                <img src="img/bath.png" alt="bath">
+                <p>2</p>
+                <img src="img/car.png" alt="car">
+                <p>1</p>
+            </div>
+            <div class="adress">
+                <img src="img/loc.png" alt="Location">
+                <p>1901 Thornridge Cir. Shiloh,<br>
+                    Hawaii 81063</p>
+            </div>
+        </div>
+        <img class="room2" src="img/room2.png" alt="room2" data-aos="fade-left" data-aos-duration="1000">
+        <div class="description2" data-aos="fade-left" data-aos-duration="1000">
+            <p class="price">$5000/month</p>
+            <h3>Apartment 2500 sqft</h3>
+            <div>
+                <img src="img/bed.png" alt="bed">
+                <p>2</p>
+                <img src="img/bath.png" alt="bath">
+                <p>2</p>
+                <img src="img/car.png" alt="car">
+                <p>1</p>
+            </div>
+                <div class="adress">
+                    <img src="img/loc.png" alt="Location">
+                    <p>1901 Thornridge Cir. Shiloh,<br>
+                        Hawaii 81063</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trending">
+        <p data-aos="fade-up" data-aos-duration="500">Our most trending properties</p>
+        <p data-aos="fade-up" data-aos-duration="500">It is a long established fact that a reader will be distracted by the readable <br>
+            content of a page when looking at its layout. The point of using.</p>
+        <div>
+            <div class="props row1">
+                <div class="property" data-aos="zoom-out">
+                    <img src="img/prop1.png" alt="property1">
+                    <p class="price">$250.000</p>
+                    <h3>Luxury Apartment<br>
+                        in California</h3>
+                    <div>
+                        <img src="img/bed.png" alt="bed">
+                        <p>2</p>
+                        <img src="img/bath.png" alt="bath">
+                        <p>2</p>
+                        <img src="img/car.png" alt="car">
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="img/loc.png" alt="Location">
+                        <p>1901 Thornridge Cir. Shiloh,<br>
+                            Hawaii 81063</p>
+                    </div>
+                </div>
+                <div class="property" data-aos="zoom-out">
+                    <img src="img/prop2.png" alt="property2">
+                    <p class="price">$175.000</p>
+                    <h3>Luxury Apartment<br>
+                        in California</h3>
+                    <div>
+                        <img src="img/bed.png" alt="bed">
+                        <p>2</p>
+                        <img src="img/bath.png" alt="bath">
+                        <p>2</p>
+                        <img src="img/car.png" alt="car">
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="img/loc.png" alt="Location">
+                        <p>1901 Thornridge Cir. Shiloh,<br>
+                            Hawaii 81063</p>
+                    </div>
+                </div>
+                <div class="property" data-aos="zoom-out">
+                    <img src="img/prop3.png" alt="property3">
+                    <p class="price">$300.000</p>
+                    <h3>Luxury Apartment<br>
+                        in California</h3>
+                    <div>
+                        <img src="img/bed.png" alt="bed">
+                        <p>2</p>
+                        <img src="img/bath.png" alt="bath">
+                        <p>2</p>
+                        <img src="img/car.png" alt="car">
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="img/loc.png" alt="Location">
+                        <p>1901 Thornridge Cir. Shiloh,<br>
+                            Hawaii 81063</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="props row2">
+                <div class="property" data-aos="zoom-out">
+                    <img src="img/prop4.png" alt="property4">
+                    <p class="price">$140.000</p>
+                    <h3>Luxury Apartment<br>
+                        in California</h3>
+                    <div>
+                        <img src="img/bed.png" alt="bed">
+                        <p>2</p>
+                        <img src="img/bath.png" alt="bath">
+                        <p>2</p>
+                        <img src="img/car.png" alt="car">
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="img/loc.png" alt="Location">
+                        <p>1901 Thornridge Cir. Shiloh,<br>
+                            Hawaii 81063</p>
+                    </div>
+                </div>
+                <div class="property" data-aos="zoom-out">
+                    <img src="img/prop5.png" alt="property5">
+                    <p class="price">$500.000</p>
+                    <h3>Luxury Apartment<br>
+                        in California</h3>
+                    <div>
+                        <img src="img/bed.png" alt="bed">
+                        <p>2</p>
+                        <img src="img/bath.png" alt="bath">
+                        <p>2</p>
+                        <img src="img/car.png" alt="car">
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="img/loc.png" alt="Location">
+                        <p>1901 Thornridge Cir. Shiloh,<br>
+                            Hawaii 81063</p>
+                    </div>
+                </div>
+                <div class="property" data-aos="zoom-out">
+                    <img src="img/prop6.png" alt="property6">
+                    <p class="price">$275.000</p>
+                    <h3>Luxury Apartment<br>
+                        in California</h3>
+                    <div>
+                        <img src="img/bed.png" alt="bed">
+                        <p>2</p>
+                        <img src="img/bath.png" alt="bath">
+                        <p>2</p>
+                        <img src="img/car.png" alt="car">
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <img src="img/loc.png" alt="Location">
+                        <p>1901 Thornridge Cir. Shiloh,<br>
+                            Hawaii 81063</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback" data-aos="fade-up" data-aos-duration="500">
+        <p data-aos="fade-up" data-aos-duration="500">What our customers say’s</p>
+        <p data-aos="fade-up" data-aos-duration="500">It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout.</p>
+
+        <div class="review">
+            <div class="rating">
+                <img src="img/star.png" alt="star">
+                <img src="img/star.png" alt="star">
+                <img src="img/star.png" alt="star">
+                <img src="img/star.png" alt="star">
+                <img src="img/star.png" alt="star">
+            </div>
+            <div class="main-text" >
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores cumque consectetur repellendus soluta deserunt in facere perspiciatis rerum, officiis sapiente, hic veritatis sunt perferendis tempora sequi inventore ipsa nisi dolores.</p>
+            </div>
+            <div class="other-info">
+                <div class="nickname">
+                    <p>Kety Willions</p>
+                    <p>California, United State</p>
+                </div>
+                <div class="users">
+                    <img src="img/user1.png" alt="user1">
+                    <img src="img/user2.png" alt="user2">
+                    <img src="img/user3.png" alt="user3">
+                </div>
+            </div>
+        </div>
+
+        <div class="photo" >
+            <img src="img/pfp.png" alt="picture">
+        </div>
+    </section>
+
+    <footer data-aos="fade-down" data-aos-duration="500">
+        <div class="info">
+            <div>
+                <img src="img/logo.png" alt="logo">
+                <img src="img/name.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Imperdiet tempus<br>
+                    felis vitae sit est quisque.</p>
+            </div>
+
+            <div>
+                <h3>Service</h3>
+                <ul class="list-reset-mobile">
+                    <li><a href="#" class="thick-2">Payment & Tax</a></li>
+                    <li><a href="#" class="thick-2">Features</a></li>
+                    <li><a href="#" class="thick-2">View Booking</a></li>
+                    <li><a href="#" class="thick-2">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>About</h3>
+                <ul class="list-reset-mobile">
+                    <li><a href="#" class="thick-2">About us</a></li>
+                    <li><a href="#" class="thick-2">News</a></li>
+                    <li><a href="#" class="thick-2">Pricing</a></li>
+                    <li><a href="#" class="thick-2">New Property</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Our Location</h3>
+                <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+                <div class="social-media">
+                    <img src="img/facebook.png" alt="facebook">
+                    <img src="img/twitter.png" alt="twitter">
+                    <img src="img/linkedin.png" alt="linkedin">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="rights">
+            <p>Copyright 2022 flora. All Rights Reserved</p>
+            <p>Terms & Conditions    Privacy Policy</p>
+        </div>
+    </footer>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+`   <div class="preloader" id="preloader">
+        <div class="progress-2"></div>
+    </div>
+</body>
+</html>
