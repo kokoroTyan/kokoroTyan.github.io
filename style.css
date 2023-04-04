@@ -60,14 +60,14 @@ nav .navbar{
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    transform: translateY(0px);
-    transition: all 1s ease-in-out;
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
 }
 
 .preloader.loaded{
-    position: static;
     transition: all 0.4s ease-in-out;
     opacity: 0;
+    position: absolute;
 }
 
 .progress-2 {
