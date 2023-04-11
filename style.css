@@ -801,6 +801,11 @@ footer .rights{
     .prices .first{
         margin: 0;
     }
+    .abilities{
+        text-align: center;
+        margin-top: 30vw;
+        flex-direction: column;
+    }
     .content1>p:nth-child(1), .content2>p:nth-child(1), .trending>p:nth-child(1), .feedback>p:nth-child(1){
         font-size: 30px;
     }
